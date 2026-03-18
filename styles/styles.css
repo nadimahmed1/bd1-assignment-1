@@ -255,3 +255,22 @@ nav {
     margin-bottom: 80px;
 
 }
+/* Footer styles */
+footer{
+    background-color: white;
+    padding: 50px 160px;
+    margin: 0px 44px 0px 44px;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+footer hr{
+
+    width: 1122px;
+   margin-bottom: 32px;
+}
+.icon a {
+    margin: 23px;
+}
