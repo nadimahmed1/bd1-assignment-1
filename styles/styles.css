@@ -220,3 +220,38 @@ nav {
 .donate-today input::placeholder{
     text-align: center;
 }
+/* subscribe section styles */
+.subscribe form {
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+.subscribe form{
+    text-align: center;
+}
+.subscribe input{
+    width: 750px;
+    padding: 17px 34px;
+    border: none;
+     border-radius: 10px 0px 0px 10px;
+     margin-right: 0px;
+}
+.btn-subscribe{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 0px;
+}
+.subscribe{
+    padding: 60px 100px 60px 100px;
+    border-radius: 24px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
