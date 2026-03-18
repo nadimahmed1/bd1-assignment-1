@@ -1,41 +1,56 @@
 /* Fira sans Fonts */
 .fira-sans-regular {
-  font-family: "Fira Sans", sans-serif;
-  font-style: normal;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
 }
-/* shared styles */
 
+/* shared styles */
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.section-description{
+     font-size: 16px;
+    color: #0E0E0E;
+}
 
 /* header styles */
-header, main{
+header,
+main {
     max-width: 1280px;
     margin: 0px auto;
 }
+
 /*  */
-body{
+body {
     background-color: #F1F1F3;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+
+.nav-title {
     color: #0E0E0E;
     font-size: 32px;
     font-weight: bold;
 }
-.btn-sing-in{
+
+.btn-sing-in {
     font-size: 18px;
     font-weight: 600px;
     color: #006A50;
     padding: 15px 30px;
     border-radius: 5px;
-    
+
 }
+
 /* banner styles */
-.banner{
-    background-color: #DBFFEF;
+.banner {
+    background-color: #b1f0d5;
     display: flex;
     justify-content: space-between;
     gap: 64px;
@@ -43,25 +58,30 @@ nav{
     margin-top: 30px;
     margin-bottom: 80px;
 }
-.banner-content{
+
+.banner-content {
     width: 622px;
     padding: 117px 0px 117px 56px;
 }
-.banner-pic img{
+
+.banner-pic img {
     width: 474px;
     padding: 80px 60px 80px 0px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 24px;
     font-weight: 500px;
     color: #0E0E0E;
 }
-.banner-description{
+
+.banner-description {
     font-size: 56px;
     font-weight: bold;
     color: #0E0E0E;
 }
-.btn-banner{
+
+.btn-banner {
     font-size: 18px;
     font-weight: 600px;
     padding: 17px 34px;
@@ -70,28 +90,64 @@ nav{
     border: none;
     border-radius: 5px;
 }
+
 /* Pillars section styles */
-.pillars-title{
-    font-size: 40px;
-    font-weight: bold;
-    color: #0E0E0E;
-}
-.pillar-container{
+
+.pillar-container {
     display: flex;
     gap: 24px;
     margin-bottom: 80px;
 }
-.pillar{
+
+.pillar {
     background-color: white;
     padding: 24px;
     border-radius: 16px;
 }
-.pillar-title{
+
+.pillar-title {
     font-size: 20px;
     font-weight: bold;
     color: #0E0E0E;
 }
-.pillar-description{
-    font-size: 16px;
+
+/* vision section styles */
+.vision-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.digital{
+    background-color: #D6E4FD;
+}
+.green{
+    background-color: #b9f0d6;
+}
+.modern{
+    background-color: #e9e1ce;
+}
+.vision{
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-title{
+    font-size: 20px;
+    font-weight: bold;
     color: #0E0E0E;
+}
+.btn-vision{
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+#btn-digital{
+    background-color: #5490F5;
+}
+#btn-green{
+    background-color: #09A15C;
+}
+#btn-modern{
+    background-color: #FFC239;
 }
