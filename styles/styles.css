@@ -21,6 +21,12 @@
     border-radius: 8px;
     border: none;
 }
+.text-primary{
+     background-color: #b1f0d5;
+}
+.text-center{
+    text-align: center;
+}
 
 /* header styles */
 header,
@@ -57,7 +63,7 @@ nav {
 
 /* banner styles */
 .banner {
-    background-color: #b1f0d5;
+    /* background-color: #b1f0d5; */
     display: flex;
     justify-content: space-between;
     gap: 64px;
@@ -180,4 +186,37 @@ nav {
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
+}
+/* donate today section */
+.donate{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+.taka{
+    background-color: white;
+    padding: 40px 50px;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4d4b4b;
+}
+#taka-200{
+         background-color: #b1f0d5;
+}
+.donate-today input[type='text']{
+    padding: 20px 40px;
+    width: 1032px;
+    border: none;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    
+   
+    
+}
+.donate-today input::placeholder{
+    text-align: center;
 }
