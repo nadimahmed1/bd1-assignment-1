@@ -7,11 +7,14 @@
 
 
 /* header styles */
-header{
+header, main{
     max-width: 1280px;
     margin: 0px auto;
 }
 /*  */
+body{
+    background-color: #F1F1F3;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -66,4 +69,29 @@ nav{
     background-color: #006A50;
     border: none;
     border-radius: 5px;
+}
+/* Pillars section styles */
+.pillars-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pillar-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+.pillar{
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+.pillar-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pillar-description{
+    font-size: 16px;
+    color: #0E0E0E;
 }
