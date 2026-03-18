@@ -1,0 +1,28 @@
+/* Fira sans Fonts */
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+/* shared styles */
+
+
+/* header styles */
+
+/*  */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-title{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+}
+.btn-sing-in{
+    font-size: 18px;
+    font-weight: 600px;
+    color: #006A50;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
